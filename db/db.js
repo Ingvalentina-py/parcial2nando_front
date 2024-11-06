@@ -3,7 +3,7 @@ const Numero = require('../models/Numero'); // Asegúrate de que la ruta sea cor
 
 const connectDB = async () => {
     try {
-        await mongoose.connect('mongodb+srv://jairomoran01:R90D0GZ4l5FEWZpw@cluster0.ue0hm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+        await mongoose.connect('mongodb+srv://valentinatabares212:ynQNy9W7CMczNVHb@cluster0.xvndt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
